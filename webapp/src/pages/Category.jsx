@@ -48,35 +48,37 @@ export default function Category() {
           }}
         >
           {list.map((p) => (
-            <div
+            <Link
               key={p.id}
-              style={{
-                borderRadius: 12,
-                overflow: "hidden",
-                border: "1px solid rgba(255,255,255,0.12)",
-                background: "rgba(255,255,255,0.06)",
-              }}
+              to={`/painting/${p.id}`}
+              style={{ textDecoration: "none", color: "inherit" }}
             >
-              <img
-                src={p.imageUrl}
-                alt={p.title}
+              <div
                 style={{
-                  width: "100%",
-                  height: 180,
-                  objectFit: "cover",
-                  display: "block",
+                  borderRadius: 12,
+                  overflow: "hidden",
+                  border: "1px solid rgba(255,255,255,0.12)",
+                  background: "rgba(255,255,255,0.06)",
                 }}
-              />
-
-              <div style={{ padding: 10 }}>
-                <div style={{ fontWeight: 800, lineHeight: 1.2 }}>
-                  {p.title}
-                </div>
-                <div style={{ marginTop: 6, opacity: 0.8 }}>
-                  {p.size}
+              >
+                <img
+                  src={p.imageUrl}
+                  alt={p.title}
+                  style={{
+                    width: "100%",
+                    height: 180,
+                    objectFit: "cover",
+                    display: "block",
+                  }}
+                />
+                <div style={{ padding: 10 }}>
+                  <div style={{ fontWeight: 800, lineHeight: 1.2 }}>
+                    {p.title}
+                  </div>
+                  <div style={{ marginTop: 6, opacity: 0.8 }}>{p.size}</div>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       )}
