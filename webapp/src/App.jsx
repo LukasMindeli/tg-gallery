@@ -5,6 +5,7 @@ import "./App.css";
 
 import Menu from "./pages/Menu";
 import Gallery from "./pages/Gallery";
+import Category from "./pages/Category";
 
 export default function App() {
   const [showIntro, setShowIntro] = useState(true);
