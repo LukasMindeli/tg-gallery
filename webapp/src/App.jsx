@@ -40,6 +40,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Menu />} />
             <Route path="/gallery" element={<Gallery />} />
+            <Route path="/gallery/:categoryId" element={<Category />} />
           </Routes>
         </BrowserRouter>
       )}

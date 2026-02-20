@@ -1,10 +1,5 @@
 import { Link } from "react-router-dom";
-
-const demoImages = [
-  { id: 1, title: "Картина 1", url: "https://picsum.photos/seed/1/800/600" },
-  { id: 2, title: "Картина 2", url: "https://picsum.photos/seed/2/800/600" },
-  { id: 3, title: "Картина 3", url: "https://picsum.photos/seed/3/800/600" },
-];
+import { categories } from "../data/galleryData";
 
 export default function Gallery() {
   return (
@@ -14,25 +9,37 @@ export default function Gallery() {
         <Link to="/"><button>Назад</button></Link>
       </div>
 
+      <p style={{ marginTop: 10, opacity: 0.8 }}>Выбери категорию:</p>
+
       <div
         style={{
           marginTop: 16,
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))",
+          gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
           gap: 12,
         }}
       >
-        {demoImages.map((img) => (
-          <div key={img.id} style={{ borderRadius: 12, overflow: "hidden" }}>
-            <img
-              src={img.url}
-              alt={img.title}
-              style={{ width: "100%", height: 160, objectFit: "cover", display: "block" }}
-            />
-            <div style={{ padding: 8 }}>
-              <div style={{ fontWeight: 600 }}>{img.title}</div>
+        {categories.map((cat) => (
+          <Link
+            key={cat.id}
+            to={`/gallery/${cat.id}`}
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            <div
+              style={{
+                borderRadius: 14,
+                padding: 18,
+                border: "1px solid rgba(255,255,255,0.12)",
+                background: "rgba(255,255,255,0.06)",
+                minHeight: 90,
+                display: "grid",
+                alignContent: "center",
+              }}
+            >
+              <div style={{ fontSize: 18, fontWeight: 700 }}>{cat.title}</div>
+              <div style={{ marginTop: 6, opacity: 0.75 }}>Открыть →</div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>
