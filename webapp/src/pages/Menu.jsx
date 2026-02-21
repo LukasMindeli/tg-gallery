@@ -1,20 +1,13 @@
 import { Link } from "react-router-dom";
 
 const btnStyle = {
-  width: 260,              // фикс — всегда влезает "Контакты"
+  width: 260,
   height: 54,
   borderRadius: 16,
-  border: "1px solid rgba(255,255,255,0.18)",
-  background: "rgba(0,0,0,0.5)",
-  color: "white",
-  fontSize: 16,
-  fontWeight: 700,
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
   whiteSpace: "nowrap",
-  overflow: "visible",
-  backdropFilter: "blur(6px)",
 };
 
 export default function Menu() {
