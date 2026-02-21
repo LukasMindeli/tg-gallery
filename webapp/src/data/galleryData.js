@@ -33,7 +33,7 @@ import zveti from "../assets/paintings/zveti.JPG";
 export const categories = [
   { id: "figurative", title: "Фигуратив" },
   { id: "landscape", title: "Пейзаж" },
-  { id: "stilllife", title: "Натюрморт" },
+  { id: "stilllife", title: "Натюрморт и др." },
 ];
 
 export const paintings = [
