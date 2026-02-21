@@ -31,7 +31,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;     /* чтобы заполняло экран */
-  transform: scale(1.2); /* +20% зум */
+  transform: scale(1.1); /* +10% зум */
 }
 
 /* меню */
