@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import centerGif from "../assets/center.gif";
 
 const btnStyle = {
   width: 260,
@@ -12,12 +13,12 @@ const btnStyle = {
 
 export default function Menu() {
   return (
-    <div style={{ width: "100vw", minHeight: "100vh" }}>
-      {/* Верхняя кнопка — чуть ближе к центру */}
+    <div style={{ width: "100vw", minHeight: "100vh", position: "relative" }}>
+      {/* Верхняя кнопка */}
       <div
         style={{
           position: "fixed",
-          top: 80, // было почти у края — теперь ниже
+          top: 80,
           left: 0,
           right: 0,
           display: "flex",
@@ -26,15 +27,39 @@ export default function Menu() {
         }}
       >
         <Link to="/gallery" style={{ textDecoration: "none" }}>
-          <div style={btnStyle}>Открыть галерею</div>
+          <button style={btnStyle}>Открыть галерею</button>
         </Link>
       </div>
 
-      {/* Нижняя кнопка — чуть выше, ближе к центру */}
+      {/* GIF по центру */}
       <div
         style={{
           position: "fixed",
-          bottom: 80, // было почти у края — теперь выше
+          inset: 0,
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          zIndex: 5,
+          pointerEvents: "none", // чтобы не мешала нажимать кнопки
+        }}
+      >
+        <img
+          src={centerGif}
+          alt="center"
+          style={{
+            width: 220,
+            maxWidth: "70vw",
+            height: "auto",
+            opacity: 0.9,
+          }}
+        />
+      </div>
+
+      {/* Нижняя кнопка */}
+      <div
+        style={{
+          position: "fixed",
+          bottom: 80,
           left: 0,
           right: 0,
           display: "flex",
@@ -43,7 +68,7 @@ export default function Menu() {
         }}
       >
         <Link to="/contacts" style={{ textDecoration: "none" }}>
-          <div style={btnStyle}>Контакты</div>
+          <button style={btnStyle}>Контакты</button>
         </Link>
       </div>
     </div>
