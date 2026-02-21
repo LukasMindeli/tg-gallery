@@ -15,7 +15,7 @@ import peredViborom from "../assets/paintings/pered-viborom.JPG";
 import priznanie from "../assets/paintings/priznanie.JPG";
 import taMuzika from "../assets/paintings/ta-muzika.JPG";
 import vTeniOlivkovichDerevev from "../assets/paintings/v-teni-olivkovich-derevev.JPG";
-import belaialoshadka from "../assets/paintings/belaialoshadka.jpg";
+import belaialoshadka from "../assets/paintings/belaialoshadka.JPG";
 import drozd from "../assets/paintings/drozd.jpg";
 import gorodnavode from "../assets/paintings/gorodnavode.png";
 import koversamolet from "../assets/paintings/koversamolet.jpg";
