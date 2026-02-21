@@ -11,9 +11,9 @@ export default function Menu() {
           <button>Открыть галерею</button>
         </Link>
 
-        <button onClick={() => alert("Позже добавим настройки")}>
-          Настройки
-        </button>
+        <Link to="/contacts">
+          <button>Контакты</button>
+        </Link>
       </div>
     </div>
   );

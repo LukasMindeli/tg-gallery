@@ -7,6 +7,7 @@ import Menu from "./pages/Menu";
 import Gallery from "./pages/Gallery";
 import Category from "./pages/Category";
 import Painting from "./pages/Painting";
+import Contacts from "./pages/Contacts";
 
 export default function App() {
   const [showIntro, setShowIntro] = useState(true);
@@ -41,6 +42,7 @@ export default function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Menu />} />
+            <Route path="/contacts" element={<Contacts />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/gallery/:categoryId" element={<Category />} />
             <Route path="/painting/:paintingId" element={<Painting />} />
