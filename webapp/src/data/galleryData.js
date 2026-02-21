@@ -16,19 +16,19 @@ import priznanie from "../assets/paintings/priznanie.JPG";
 import taMuzika from "../assets/paintings/ta-muzika.JPG";
 import vTeniOlivkovichDerevev from "../assets/paintings/v-teni-olivkovich-derevev.JPG";
 import belaialoshadka from "../assets/paintings/belaialoshadka.JPG";
-import drozd from "../assets/paintings/drozd.jpg";
-import gorodnavode from "../assets/paintings/gorodnavode.png";
-import koversamolet from "../assets/paintings/koversamolet.jpg";
-import loshadka from "../assets/paintings/loshadka.jpg";
-import narzissi from "../assets/paintings/narzissi.jpg";
-import natiurmort01 from "../assets/paintings/natiurmort01.jpg";
-import natiurmortsnastroeniem from "../assets/paintings/natiurmortsnastroeniem.jpg";
-import natiurmortsrakushkami from "../assets/paintings/natiurmortsrakushkami.jpg";
-import natiurmortszvetkomvgorshke from "../assets/paintings/natiurmortszvetkomvgorshke.jpg";
-import seriinatiurmort from "../assets/paintings/seriinatiurmort.jpg";
-import skazochniigorod from "../assets/paintings/skazochniigorod.jpg";
-import visokiidom from "../assets/paintings/visokiidom.jpg";
-import zveti from "../assets/paintings/zveti.jpg";
+import drozd from "../assets/paintings/drozd.JPG";
+import gorodnavode from "../assets/paintings/gorodnavode.PNG";
+import koversamolet from "../assets/paintings/koversamolet.JPG";
+import loshadka from "../assets/paintings/loshadka.JPG";
+import narzissi from "../assets/paintings/narzissi.JPG";
+import natiurmort01 from "../assets/paintings/natiurmort01.JPG";
+import natiurmortsnastroeniem from "../assets/paintings/natiurmortsnastroeniem.JPG";
+import natiurmortsrakushkami from "../assets/paintings/natiurmortsrakushkami.JPG";
+import natiurmortszvetkomvgorshke from "../assets/paintings/natiurmortszvetkomvgorshke.JPG";
+import seriinatiurmort from "../assets/paintings/seriinatiurmort.JPG";
+import skazochniigorod from "../assets/paintings/skazochniigorod.JPG";
+import visokiidom from "../assets/paintings/visokiidom.JPG";
+import zveti from "../assets/paintings/zveti.JPG";
 
 export const categories = [
   { id: "figurative", title: "Фигуратив" },
