@@ -15,6 +15,20 @@ import peredViborom from "../assets/paintings/pered-viborom.JPG";
 import priznanie from "../assets/paintings/priznanie.JPG";
 import taMuzika from "../assets/paintings/ta-muzika.JPG";
 import vTeniOlivkovichDerevev from "../assets/paintings/v-teni-olivkovich-derevev.JPG";
+import belaialoshadka from "../assets/paintings/belaialoshadka.jpg";
+import drozd from "../assets/paintings/drozd.jpg";
+import gorodnavode from "../assets/paintings/gorodnavode.png";
+import koversamolet from "../assets/paintings/koversamolet.jpg";
+import loshadka from "../assets/paintings/loshadka.jpg";
+import narzissi from "../assets/paintings/narzissi.jpg";
+import natiurmort01 from "../assets/paintings/natiurmort01.jpg";
+import natiurmortsnastroeniem from "../assets/paintings/natiurmortsnastroeniem.jpg";
+import natiurmortsrakushkami from "../assets/paintings/natiurmortsrakushkami.jpg";
+import natiurmortszvetkomvgorshke from "../assets/paintings/natiurmortszvetkomvgorshke.jpg";
+import seriinatiurmort from "../assets/paintings/seriinatiurmort.jpg";
+import skazochniigorod from "../assets/paintings/skazochniigorod.jpg";
+import visokiidom from "../assets/paintings/visokiidom.jpg";
+import zveti from "../assets/paintings/zveti.jpg";
 
 export const categories = [
   { id: "figurative", title: "Фигуратив" },
@@ -136,6 +150,104 @@ export const paintings = [
     size: "60Х80см",
     imageUrl: vTeniOlivkovichDerevev,
   },
+  {
+  id: "belaialoshadka",
+  categoryId: "stilllife",
+  title: "Белая лошадка",
+  size: "50Х90см",
+  imageUrl: belaialoshadka,
+},
+{
+  id: "drozd",
+  categoryId: "stilllife",
+  title: "Дрозд",
+  size: "100Х120см",
+  imageUrl: drozd,
+},
+{
+  id: "gorodnavode",
+  categoryId: "landscape",
+  title: "Город на воде",
+  size: "40Х60см",
+  imageUrl: gorodnavode,
+},
+{
+  id: "koversamolet",
+  categoryId: "stilllife",
+  title: "Ковёр-самолёт",
+  size: "80Х150см",
+  imageUrl: koversamolet,
+},
+{
+  id: "loshadka",
+  categoryId: "stilllife",
+  title: "Лошадка",
+  size: "60Х80см",
+  imageUrl: loshadka,
+},
+{
+  id: "narzissi",
+  categoryId: "stilllife",
+  title: "Нарциссы",
+  size: "30Х40см",
+  imageUrl: narzissi,
+},
+{
+  id: "natiurmort01",
+  categoryId: "stilllife",
+  title: "Натюрморт 01",
+  size: "85Х90см",
+  imageUrl: natiurmort01,
+},
+{
+  id: "natiurmortsnastroeniem",
+  categoryId: "stilllife",
+  title: "Натюрморт с настроением",
+  size: "40Х50см",
+  imageUrl: natiurmortsnastroeniem,
+},
+{
+  id: "natiurmortsrakushkami",
+  categoryId: "stilllife",
+  title: "Натюрморт с ракушками",
+  size: "50Х60см—",
+  imageUrl: natiurmortsrakushkami,
+},
+{
+  id: "natiurmortszvetkomvgorshke",
+  categoryId: "stilllife",
+  title: "Натюрморт с цветком в горшке",
+  size: "40Х60см",
+  imageUrl: natiurmortszvetkomvgorshke,
+},
+{
+  id: "seriinatiurmort",
+  categoryId: "stilllife",
+  title: "Серый натюрморт",
+  size: "60Х80см",
+  imageUrl: seriinatiurmort,
+},
+{
+  id: "skazochniigorod",
+  categoryId: "landscape",
+  title: "Сказочный город",
+  size: "90Х80см",
+  imageUrl: skazochniigorod,
+},
+{
+  id: "visokiidom",
+  categoryId: "landscape",
+  title: "Высокий дом",
+  size: "60Х30см",
+  imageUrl: visokiidom,
+},
+{
+  id: "zveti",
+  categoryId: "stilllife",
+  title: "Цветы",
+  size: "30Х30см",
+  imageUrl: zveti,
+},
 
   // Пейзаж (если пока нет — оставим пусто; потом добавишь)
   // пример:

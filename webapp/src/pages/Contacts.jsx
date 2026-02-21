@@ -31,7 +31,7 @@ export default function Contacts() {
         <div>
           <div style={{ opacity: 0.8, fontSize: 14 }}>Телефон</div>
           <a href="tel:+380677532837" style={{ fontSize: 18, fontWeight: 700 }}>
-            +38 (000) 000-00-00
+            +38 (067) 753-28-37
           </a>
         </div>
 
@@ -43,17 +43,17 @@ export default function Contacts() {
             rel="noreferrer"
             style={{ fontSize: 18, fontWeight: 700 }}
           >
-            @your_username
+            @kiknavelidzeemzari
           </a>
         </div>
 
         <div>
           <div style={{ opacity: 0.8, fontSize: 14 }}>Email</div>
           <a
-            href="mailto:you@example.com"
+            href="mailto:emzarikik@gmail.com"
             style={{ fontSize: 18, fontWeight: 700 }}
           >
-            you@example.com
+            emzarikik@gmail.com
           </a>
         </div>
       </div>
