@@ -6,14 +6,15 @@ import piknik from "../assets/paintings/piknik.jpg";
 import portnoy from "../assets/paintings/portnoy.jpg";
 import romashki from "../assets/paintings/romashki.jpg";
 import ryzhevolosaya from "../assets/paintings/ryzhevolosaya.jpg";
-import ryzhevolosaya from "../assets/paintings/holodnoe-kofe.JPG";
-import ryzhevolosaya from "../assets/paintings/krasnie-krishi.JPG";
-import ryzhevolosaya from "../assets/paintings/na-terrase.JPG";
-import ryzhevolosaya from "../assets/paintings/nosochki.JPG";
-import ryzhevolosaya from "../assets/paintings/pered-viborom.JPG";
-import ryzhevolosaya from "../assets/paintings/priznanie.JPG";
-import ryzhevolosaya from "../assets/paintings/ta-muzika.JPG";
-import ryzhevolosaya from "../assets/paintings/v-teni-olivkovich-derevev.JPG";
+
+import holodnoeKofe from "../assets/paintings/holodnoe-kofe.JPG";
+import krasnieKrishi from "../assets/paintings/krasnie-krishi.JPG";
+import naTerrase from "../assets/paintings/na-terrase.JPG";
+import nosochki from "../assets/paintings/nosochki.JPG";
+import peredViborom from "../assets/paintings/pered-viborom.JPG";
+import priznanie from "../assets/paintings/priznanie.JPG";
+import taMuzika from "../assets/paintings/ta-muzika.JPG";
+import vTeniOlivkovichDerevev from "../assets/paintings/v-teni-olivkovich-derevev.JPG";
 
 export const categories = [
   { id: "figurative", title: "Фигуратив" },
@@ -58,8 +59,6 @@ export const paintings = [
     size: "90Х80см",
     imageUrl: ryzhevolosaya,
   },
-
-  // Натюрморт
   {
     id: "kapuchino",
     categoryId: "figurative",
@@ -86,14 +85,14 @@ export const paintings = [
     categoryId: "figurative",
     title: "Холодное кофе",
     size: "80Х60см",
-    imageUrl: holodnoe-kofe,
+    imageUrl: holodnoeKofe,
   },
   {
     id: "krasnie-krishi",
     categoryId: "landscape",
     title: "Красные крыши",
     size: "80Х90см",
-    imageUrl: krasnie-krishi,
+    imageUrl: krasnieKrishi,
   },
   {
     id: "na-terrase",
@@ -128,14 +127,14 @@ export const paintings = [
     categoryId: "figurative",
     title: "Та музыка",
     size: "100Х80см",
-    imageUrl: ta-muzika,
+    imageUrl: taMuzika,
   },
   {
     id: "v-teni-olivkovich-derevev",
     categoryId: "figurative",
     title: "В тени оливковых деревьев",
     size: "60Х80см",
-    imageUrl: v-teni-olivkovich-derevev,
+    imageUrl: vTeniOlivkovichDerevev,
   },
 
   // Пейзаж (если пока нет — оставим пусто; потом добавишь)
