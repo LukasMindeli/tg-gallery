@@ -13,7 +13,7 @@ export default function App() {
   const [fadeOut, setFadeOut] = useState(false);
 
   useEffect(() => {
-    const maxMs = 6000;
+    const maxMs = 3000;
     const t = setTimeout(() => startFadeOut(), maxMs);
     return () => clearTimeout(t);
   }, []);
@@ -21,7 +21,7 @@ export default function App() {
   function startFadeOut() {
     if (fadeOut) return;
     setFadeOut(true);
-    setTimeout(() => setShowIntro(false), 650);
+    setTimeout(() => setShowIntro(false), 300);
   }
 
   return (

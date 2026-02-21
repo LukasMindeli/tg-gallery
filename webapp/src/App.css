@@ -23,13 +23,15 @@
 .introWrap.fadeOut {
   opacity: 0;
   pointer-events: none; /* ВАЖНО: клики проходят на контент */
+  transition: opacity 250ms ease;
 }
 
 /* видео на весь экран */
 .introVideo {
   width: 100%;
   height: 100%;
-  object-fit: contain; /* как ты хотел: без обрезки */
+  object-fit: cover;     /* чтобы заполняло экран */
+  transform: scale(1.2); /* +20% зум */
 }
 
 /* меню */
