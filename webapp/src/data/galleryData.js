@@ -99,7 +99,7 @@ export const paintings = [
     categoryId: "figurative",
     title: "На террасе",
     size: "110Х60см",
-    imageUrl: na-terrase,
+    imageUrl: naTerrase,
   },
   {
     id: "nosochki",
@@ -113,7 +113,7 @@ export const paintings = [
     categoryId: "figurative",
     title: "Перед выбором",
     size: "90Х85см",
-    imageUrl: pered-viborom,
+    imageUrl: peredViborom,
   },
   {
     id: "priznanie",
